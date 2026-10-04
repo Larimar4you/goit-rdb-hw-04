@@ -70,8 +70,8 @@ SELECT * FROM users;
 
 INSERT INTO borrowed_books (book_id, user_id, borrow_date, return_date)
 VALUES
-    (3, 1, '2026-10-01', '2026-10-10'),
-    (4, 2, '2026-10-02', '2026-10-12');
+    (1, 1, '2026-10-01', '2026-10-10'),
+    (2, 2, '2026-10-02', '2026-10-12');
 
 SELECT * FROM borrowed_books;
 
